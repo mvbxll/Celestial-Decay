@@ -1,0 +1,14 @@
+body {
+    font-family: montserrat, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
