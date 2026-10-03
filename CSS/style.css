@@ -25,6 +25,13 @@ header p {
     margin-top: 10px;
 }
 
+    header h1 {
+        font-size: 24px;
+    }
+    header p {
+        font-size: 14px;
+    }
+
 ul {
     display: flex;
     justify-content: center;
@@ -58,4 +65,29 @@ td {
 footer {
     text-align: center;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
 }
