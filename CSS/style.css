@@ -2,7 +2,7 @@ body {
     font-family: montserrat, sans-serif;
 }
 
-nav {
+ul {
     display: flex;
     align-items: center;
     list-style: none;
